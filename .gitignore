@@ -1,0 +1,34 @@
+# Node.js (caso use futuramente para build ou servidores locais)
+node_modules/
+dist/
+build/
+
+# Sistema operacional
+.DS_Store         # macOS
+Thumbs.db         # Windows
+ehthumbs.db       # Windows
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs e temporários
+*.log
+*.tmp
+*.swp
+
+# Ambiente e variáveis (se usar futuramente)
+.env
+.env.local
+.env.*.local
+
+# Arquivos de deploy locais
+*.zip
+*.tar
+*.gz
+
+# Outros arquivos que você não quer subir
+logs/
+.cache/
